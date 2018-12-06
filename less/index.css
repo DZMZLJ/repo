@@ -1,0 +1,158 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?xgkav');
+  src: url('fonts/icomoon.eot?xgkav#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?xgkav') format('truetype'), url('fonts/icomoon.woff?xgkav') format('woff'), url('fonts/icomoon.svg?xgkav#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-add:before {
+  content: "\e900";
+}
+.icon-cancle:before {
+  content: "\e901";
+}
+.icon-delete:before {
+  content: "\e902";
+}
+.icon-edit:before {
+  content: "\e903";
+}
+.icon-preview:before {
+  content: "\e904";
+}
+.icon-share:before {
+  content: "\e905";
+}
+.icon-time:before {
+  content: "\e906";
+}
+@media only screen and (width: 320px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media only screen and (width: 360px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media only screen and (width: 375px) {
+  html {
+    font-size: 18.75px;
+  }
+}
+@media only screen and (width: 414px) {
+  html {
+    font-size: 20.7px;
+  }
+}
+body,
+h4,
+dd {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+a {
+  text-decoration: none;
+}
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+  background-color: #f7f4f1;
+}
+.items {
+  padding: 0 0.75rem;
+}
+.items .title {
+  display: flex;
+  justify-content: space-between;
+  color: #888;
+  font-size: 0.875rem;
+  font-weight: normal;
+  margin: 0.84375rem 0 0.9375rem;
+}
+.items .item {
+  margin-bottom: 1rem;
+}
+.items .item:not(.add) {
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.items .item .shang {
+  height: 7.3125rem;
+}
+.items .item .xia {
+  height: 2.53125rem;
+  background-color: #fff;
+  display: flex;
+  padding: 0.53125rem;
+  box-sizing: border-box;
+}
+.items .item .xia a {
+  color: #919191;
+  font-size: 0.875rem;
+  flex: 1;
+  text-align: center;
+  border-right: 1px solid red;
+  line-height: 1.46875rem;
+}
+.items .item .xia a:last-child {
+  border-right: none;
+}
+.items .all .shang {
+  background-color: #55bc75;
+}
+.items .all .xia span[class^="icon-"] {
+  color: #55bc75;
+}
+.items .coupon .shang {
+  background-color: #a974bc;
+}
+.items .coupon .xia span[class^="icon-"] {
+  color: #a974bc;
+}
+.items .add {
+  height: 7.03125rem;
+  border: 0.09375rem dashed #dedede;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.items .add a {
+  font-size: 3.3125rem;
+  color: #aeaeae;
+  display: block;
+  text-align: center;
+  padding-top: 1.125rem;
+}
+.items .add span {
+  display: block;
+  font-size: 0.8125rem;
+  color: #aeaeae;
+  padding-top: 0.5rem;
+}
+.tips {
+  padding: 0 0.75rem;
+  font-size: 0.75rem;
+  color: #999;
+  line-height: 1.28125rem;
+  margin-top: 3.8125rem;
+}

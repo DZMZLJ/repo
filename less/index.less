@@ -1,0 +1,98 @@
+
+@import './style.less';
+
+@import './adapter.less';
+@import './base.less';
+
+
+
+body {
+    background-color:#f7f4f1;
+}
+ .items {
+     padding: 0 24 / 32rem;
+    //  标题
+     .title {
+        display: flex;
+        justify-content: space-between;
+        color: #888;
+        font-size: 28 / 32rem;
+        font-weight: normal;
+        margin: 27 / 32rem 0 30 / 32rem;
+     }
+    //  盒子
+    .item {
+        margin-bottom: 32 /32rem;
+        &:not(.add) {
+            border-radius: 16 / 32rem;
+            overflow: hidden;
+        }
+        .shang {
+            height: 234 / 32rem;
+        }
+        .xia {
+            height: 81 / 32rem;
+            background-color: #fff;
+            display: flex;
+            padding: 17 / 32rem;
+            box-sizing: border-box;
+            a {
+                color: #919191;
+                font-size: 28 / 32rem;
+                flex: 1;
+                text-align: center;
+                border-right: 1px solid red;
+                line-height: 47 / 32rem;
+                &:last-child {
+                    border-right: none;
+                }
+            }
+        }
+    }
+    .all {
+        .shang {
+            background-color: #55bc75;
+        }
+        .xia {
+            span[class^="icon-"] {
+                color:  #55bc75;
+            }
+        }
+    }
+    .coupon {
+        .shang {
+            background-color: #a974bc; 
+        }
+        .xia {
+            span[class^="icon-"] {
+                color:  #a974bc; 
+            }
+        }
+    }
+     .add {
+        height: 225 / 32rem;
+        border: 3 / 32rem dashed #dedede;
+        background-color: #fff;
+        box-sizing: border-box;
+        a {
+            font-size: 106 / 32rem;
+            color: #aeaeae;
+            display: block;
+            text-align: center;
+            padding-top: 36 /32rem; 
+        }
+        span {
+            display: block;
+            font-size: 26 / 32rem;
+            color: #aeaeae;
+            padding-top: 16 / 32rem; 
+        }
+     }
+    }
+ .tips {
+      padding: 0 24 / 32rem;
+      font-size: 24 / 32rem;
+      color: #999;
+      line-height: 41 / 32rem;
+      margin-top: 122 / 32rem;
+  }
